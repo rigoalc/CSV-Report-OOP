@@ -12,7 +12,7 @@ class CSVReport:
     def __init__(self):
         self.reading = 'read_csv'
 
-    def read_csv(self):
+    def run(self):
         header = True  
         year_data = {}
         print("Year |  Min |  Max |  Avg") #header 
@@ -48,7 +48,7 @@ class CSVReport:
 #How to read the values
         
 my_csv_instance = CSVReport()
-my_csv_instance.read_csv()
+my_csv_instance.run()
 
 
     
