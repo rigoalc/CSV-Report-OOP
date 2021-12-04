@@ -1,7 +1,8 @@
 # Rodrigo Alcover
-# 7/11/2021
+# 4/12/2021
 # CIS-216-12292 
 # Python Programming
+# Assignment: CSV Report OOP
 
 
 from collections import Counter
@@ -51,5 +52,12 @@ my_csv_instance = CSVReport()
 my_csv_instance.run()
 
 
-    
-    
+#The total development time is 7 hs.
+
+
+#This program reads the data from a list of temperature data (in Fahrenheit) for Grand Rapids, MI from 1995 until 2020. 
+#The program will organize, calculate and print the average, min, max temperature by year.
+#Run the program executing the comand "my_csv_instance.run()"
+
+
+
